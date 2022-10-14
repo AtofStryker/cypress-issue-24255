@@ -1,0 +1,23 @@
+{
+  "name": "cypress-issue-24255",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:works": "cypress open",
+    "test:should:not:work": "./node_modules/.bin/cypress open & echo 'test'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AtofStryker/cypress-issue-24255.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AtofStryker/cypress-issue-24255/issues"
+  },
+  "homepage": "https://github.com/AtofStryker/cypress-issue-24255#readme",
+  "dependencies": {
+    "cypress": "^10.10.0"
+  }
+}
